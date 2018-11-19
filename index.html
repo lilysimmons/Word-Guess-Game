@@ -3,17 +3,26 @@
 <head>
     <title>Word Guess Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+   
+ 
+    <style>
+
+    body{background-image: url("assets/images/parrotB&W.png");   
+    }
+  
+    </style>
     
 </head>
 <body>
     
-    <div class="jumbotron text-center">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+
+    <div class="jumbotron text-center" style="background-color: rgb(84, 231, 211);">
+        <h1 class="display-4">Guess that Psittaciform!</h1>
+        <p class="lead">Try to guess the hidden word. Use the keyboard to fill in the missing letters. You have 12 chances reveal the hidden psittaciform. Refresh the page to clear the score.  Good luck! </p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" onclick="resetGame();" role="button">Learn more</a>
+        <p>Press any key to get started!</p>
+        <a class="btn btn-primary btn-lg" href="#" onclick="resetGame();" role="button">New Word</a>
       </div>
 
       
@@ -24,6 +33,11 @@
     <h3 id="alreadyGuessed-text">Already Guessed:</h3>
     <h1 class="text-center" id="displayWord-text">Here</h1>
     </div> 
+
+
+
+    <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Parrot">Parrot</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+
     <script src="assets/javascript/game.js"></script>  
 </body>
 </html>
