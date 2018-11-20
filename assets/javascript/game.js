@@ -1,6 +1,6 @@
 
 // global variables
-var parrotType = ["macaw", "cockatoo", "budgerigar", "lorikeet", "amazon", "kakapo", "rosella"];
+var parrotType = ["macaw", "cockatoo", "budgerigar", "lorikeet", "amazon", "kakapo", "rosella", "lovebird", "cockatiel", "kea", "parakeet", "lory", "kaka"];
 
 var wins=0;
 var losses=0;
