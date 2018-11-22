@@ -49,7 +49,7 @@ var resetGame = function(){
 }
 
 
-startGame.onclick = resetGame;
+startGame.onclick = resetGame();
     
 
   
