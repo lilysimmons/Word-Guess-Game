@@ -5,7 +5,8 @@ var parrotType = ["macaw", "cockatoo", "budgerigar", "lorikeet", "amazon", "kaka
 var wins=0;
 var losses=0;
 var guesses;
-var randomParrot;
+var randomParrot = parrotType[Math.floor(Math.random() * parrotType.length)].split("");
+console.log(randomParrot);
 var hiddenWord;
 var wrongLetterChoice;
 
