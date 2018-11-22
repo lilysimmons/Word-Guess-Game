@@ -34,7 +34,8 @@ var resetGame = function(){
     hiddenWord = [];
     wrongLetterChoice = [];
     for(var i = 0; i<randomParrot.length; i++){
-      hiddenWord.push("_");}
+      hiddenWord.push("_");
+    }
 
       guessesLeft.textContent = "Guesses left: " + guesses;  
 
@@ -44,12 +45,11 @@ var resetGame = function(){
       
       winsText.textContent = "Wins: " + wins;
       
-      lossesText.textContent = "Losses:" + losses;  
-      
+      lossesText.textContent = "Losses: " + losses;        
 }
-startGame.onclick = resetGame();
 
 
+startGame.onclick = resetGame;
     
 
   
@@ -103,7 +103,7 @@ alreadyGuessed.textContent = "Already Guessed: " + wrongLetterChoice;
 
 winsText.textContent = "Wins: " + wins;
 
-lossesText.textContent = "Losses:" + losses;
+lossesText.textContent = "Losses: " + losses;
 
 };
 
